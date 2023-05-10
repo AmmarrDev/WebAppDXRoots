@@ -1,0 +1,10 @@
+﻿.custom-gradient-bg
+{
+    background: linear-gradient(to right, #FF8B01, #FF416C, #E60001);
+}
+
+.custom-gradient-bg-nav {
+    background: linear-gradient(to right, #FF8B01, #FF416C, #E60001);
+}
+
+
