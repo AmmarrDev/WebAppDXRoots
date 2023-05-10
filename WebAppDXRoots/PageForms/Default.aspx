@@ -3,9 +3,27 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <!-- About Section-->
-    <section class="page-section bg-primary custom-gradient-bg mb-0" id="about">
+
+   <%--  <section class="page-section bg-primary custom-gradient-bg mb-0" id="about">
         <div class="container">
+              <div class="text-center mt-4">
+                <asp:LinkButton CssClass="btn get-started-button btn-outline-info"  runat="server" ID="Linkbutton1" href="LoginForm.aspx">
+                    <i class="fas fa-login me-2"></i>
+                        <b>Get Started</b>
+                </asp:LinkButton>
+            </div>
+            </div>
+         </section>--%>
+    <!-- About Section-->
+    <section class="page-section bg-primary custom-gradient-bg mb-0" id="aboutasd">
+        <div class="container">
+                  <!-- About Section Button-->
+            <div class="text-center mt-4">
+                <asp:LinkButton CssClass="btn get-started-button btn-outline-info"  runat="server" ID="Linkbuttonlogin" href="LoginForm.aspx">
+                    <i class="fas fa-login me-2"></i>
+                        <b>Get Started</b>
+                </asp:LinkButton>
+            </div>
             <!-- About Section Heading-->
             <h2 class="page-section-heading text-center text-uppercase text-white">Customer Service</h2>
             <!-- Icon Divider-->
@@ -23,13 +41,7 @@
                     <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.!</p>
                 </div>
             </div>
-            <!-- About Section Button-->
-            <div class="text-center mt-4">
-                <asp:LinkButton CssClass="btn btn-xl btn-outline-light" runat="server" ID="Linkbuttonlogin" href="LoginForm.aspx">
-                    <i class="fas fa-login me-2"></i>
-                        Login
-                </asp:LinkButton>
-            </div>
+      
         </div>
     </section>
 </asp:Content>
