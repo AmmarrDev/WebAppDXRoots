@@ -1,11 +1,11 @@
-﻿.custom-gradient-bg
-{
+﻿.custom-gradient-bg {
     background: linear-gradient(to right, #FF8B01, #FF416C, #E60001);
 }
 
 .custom-gradient-bg-nav {
     background: linear-gradient(to right, #FF8B01, #FF416C, #E60001);
 }
+
 .get-started-button {
     padding: 1rem 1.75rem;
     font-size: 1.25rem;

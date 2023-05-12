@@ -33,6 +33,7 @@
                                 <asp:LinkButton class="nav-link py-3 px-0 px-lg-3 rounded" href="#" runat="server" ID="LinkButton6" Font-Size="X-Large" Font-Names="Arial">Resource Augmentation</asp:LinkButton></li>
                         </ul>
                     </center>
+
                 </div>
                 <div class="col-md-4 me-auto">
                     <center>
@@ -54,12 +55,12 @@
                         </div>
                     </center>
                 </div>
-                 <div class="text-center mt-4 text-uppercase">
-                <asp:LinkButton CssClass="btn get-started-button btn-outline-info" runat="server" ID="Linkbutton1" href="LoginForm.aspx">
+                <div class="text-center mt-4 text-uppercase">
+                    <asp:LinkButton CssClass="btn get-started-button btn-outline-info" runat="server" ID="Linkbutton1" href="LoginForm.aspx">
                     <i class="fas fa-login me-2"></i>
                         <b>Get Started</b>
-                </asp:LinkButton>
-            </div>
+                    </asp:LinkButton>
+                </div>
             </div>
         </div>
     </section>

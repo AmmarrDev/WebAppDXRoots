@@ -1,28 +1,29 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/masterPage.Master" AutoEventWireup="true" CodeBehind="LoginForm.aspx.cs" Inherits="WebAppDXRoots.PageForms.LoginForm" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-     <section class="page-section bg-primary custom-gradient-bg mb-0" id="login">
-         <div class="container">
-             <div class="row">
-                 <div class="col-md-6 mx-auto">
-                     <div class="card">
-                         <div class="card-body">
-                             <div class="row">
-                             <div class="col">
-                                 <center>
-                                     <img width="150px" src="../bootstraptheme/assets/img/portfolio/safe.png" />
-                                 </center>
-                             </div>
-                                 </div>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-         </div>
+    <section class="page-section bg-primary custom-gradient-bg mb-0" id="login">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <center>
+                                        <img width="150px" src="../bootstraptheme/assets/img/portfolio/safe.png" />
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-<%-- <section class="page-section bg-primary custom-gradient-bg mb-0" id="login">
+    <%-- <section class="page-section bg-primary custom-gradient-bg mb-0" id="login">
         <div class="container">
             <!-- Login Section Heading-->
             <h3 class="page-section-heading text-center text-uppercase text-white">Login</h3>
@@ -60,5 +61,4 @@
             </div>
         </div>
     </section>--%>
-
 </asp:Content>
